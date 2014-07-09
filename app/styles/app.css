@@ -4,10 +4,15 @@ html, body {
 
 /* Abacus */
 
-.abacus_column {
+#abacus_frame {
   background-color: #fff;
-  display: table-cell;
+  border-radius: 7px;
+  display: inline-block;
+}
+
+.abacus_column {
   font-size: 1.2rem;
+  float: left;
   padding: 24px 0px;
   text-align: center;
 }
