@@ -1,3 +1,15 @@
-<h2 id='title'>Welcome to Ember.js</h2>
+<header>
+  <h2>
+    Ember.js Abacus 
+  </h2>
 
-{{outlet}}
+  <nav>
+    {{link-to "Abacus" "abacus"}}
+    {{link-to "thousands" "thousands"}}
+    {{link-to "millions" "thousands.millions"}}
+  </nav>
+</header>
+
+<main>
+  {{outlet}}
+</main>

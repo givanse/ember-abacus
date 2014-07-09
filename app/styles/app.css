@@ -1,3 +1,38 @@
 html, body {
   margin: 20px;
 }
+
+/* Abacus */
+
+.abacus_column {
+  background-color: #fff;
+  display: table-cell;
+  font-size: 1.2rem;
+  padding: 24px 0px;
+  text-align: center;
+}
+
+.abacus_beam {
+  background-color: brown;
+  border: 2px solid #6D341E;
+  border-width: 5px 0px;
+  height: 20px;
+  margin: 4px 0px;
+  width: 40px;
+}
+
+.abacus_bead {
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  margin: 4px auto;
+  height: 25px;
+  width: 25px;
+}
+
+.ab_active {
+  cursor: pointer;
+  background-color: orange;
+  border-color: #000;
+}
+
+/*EOF*/
